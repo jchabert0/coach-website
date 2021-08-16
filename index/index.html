@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naouël AMOUDAYNE</title>
+    <link rel="stylesheet" href="../librairies/css/atome.css">
+    <link rel="stylesheet" href="../librairies/css/grid.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <style>
+        section#home-page {
+            min-height: 100vh;
+        }
+
+        section#home-page .profil-photo {
+            width: 130px;
+            height: 130px;
+        }
+
+        /*
+        section#home-page .heading:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 5px;
+            background: var(--color-primary);
+            background: -webkit-linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+            background: -moz-linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+            background: -o-linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+            background: -ms-linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+            background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+        }
+        */
+
+        @media screen and (min-width: 992px) {
+            section#home-page .heading {
+                padding-left: 30px;
+            }
+
+            section#home-page .img-wrapper {
+                margin-bottom: 0;
+                ;
+            }
+
+            section#home-page .contact-item:hover:not(.contact-item.-no-nav) {
+                background: var(--color-secondary);
+            }
+
+            section#home-page .contact-item:hover:not(.contact-item.-no-nav) .title {
+                color: var(--color-white);
+            }
+
+            section#home-page .contact-item:hover:not(.contact-item.-no-nav) svg {
+                fill: var(--color-white);
+                -webkit-transform: scale(1.2);
+                -moz-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                -o-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+    </style>
+    <!-- Header -->
+    <!--
+    <header class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    header
+                </div>
+            </div>
+        </div>
+    </header>
+    -->
+    <section class="img-bck_cover img-filter img-filter_8 -light h-auto d-flex align-items-center justify-content-center" id="home-page"
+    style="background-image: url(../images/hero-banner/basilique-fourvière.jpg)">
+        <div class="container">
+            <div class="row">
+                <!-- Col Hero Banner -->
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center pb-30">
+                        <div class="img-wrapper mb-20">
+                            <img class="profil-photo img-obj_cover border-rounded h-100"
+                                src="../images/profil/photo.jpg" alt="naouel-amoudayne-img">
+                        </div>
+                        <div class="heading p-relative pl-25 h-fit">
+                            <h1>Naouël Amoudayne</h1>
+                            <h2 class="txt-right">Coach Parental</h2>
+                        </div>
+                    </div>
+                    <div class="quote txt-center pb-30">
+                        <quote>
+                            <div>"</div> On ne naît pas parent, on le devient. <div>"</div>
+                        </quote>
+                        <span>
+                            <div>-</div> Françoise Dolto
+                        </span>
+                    </div>
+                </div>
+                <!-- Col Contact -->
+                <div class="col-12">
+                    <div class="pb-40">
+                        <p>Cette citation prend tout son sens dans notre société actuelle, car pour
+                            beaucoup être un "bon" parent est être un parent naturellement parfait.
+                            <br />
+                            Pourtant la quête de cet idéal alimente le sentiment d'échec, de culpabilité
+                            et renforce des craintes de plus en plus nombreuses.
+                            <br />
+                            <br />
+                            Vous avez des doutes, des questions ?! C'est tout à fait compréhensible mais ne
+                            serait-il pas déraisonnable de rester seul face à vos interrogations ?
+                            <br />
+                            Il est essentiel que chaque parent ou adulte rencontrant
+                            de petits ennuis ou de gros soucis avec un ou plusieurs enfants pussient bénéficier
+                            d'un espace d'écoute et de soutient bienveillant.
+                            <br />
+                            <br />
+                            C'est pourquoi, j'ai décidé d'ouvrir un cabinet de coaching à Lyon afin de répondre
+                            à un besoin grandissant.
+                            <br />
+                            <br />
+                            Mon objectif en tant que Coach Parental et Familial est de mettre à votre service mon
+                            expérience
+                            de plus de 15 ans dans le milieu de l'enfance et de la parentalité. Vous permettant ainsi
+                            de mieux vous comprendre et réinstaurer une harmonie familiale.
+                            <br />
+                            <br />
+                            Quelles que soient les difficultés rencontrées nous définiront ensemble un projet
+                            personnalisé
+                            grâce à des
+                            outils pédagogiques et éducatifs ciblés.
+                            <br />
+                            Lors des séances de coaching vous apprendrez à mieux repérer les situations complexes,
+                            les analyser pour mieux les comprendre
+                            et moins les appréhender.
+                        </p>
+                    </div>
+                </div>
+                <!-- Col Contact -->
+                <div class="col-12">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 col-lg-4">
+                            <a href="tel:+750393910"
+                                class="contact-item d-block mb-20 transition bck-light no-decoration">
+                                <div class="pb-30 pt-30 d-flex align-items-center justify-content-center flex-column">
+                                    <h3 class="pb-30 transition title">06.25.10.37.91</h3>
+                                    <svg class="icon-primary transition transition-svg" height="50px" width="50px"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path
+                                            d="M15.5 1h-8C6.12 1 5 2.12 5 3.5v17C5 21.88 6.12 23 7.5 23h8c1.38 0 2.5-1.12 2.5-2.5v-17C18 2.12 16.88 1 15.5 1zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V4h9v14z" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <a href="mailto:n.amoudayne@gmail.com"
+                                class="contact-item d-block mb-20 transition bck-light no-decoration">
+                                <div class="pb-30 pt-30 d-flex align-items-center justify-content-center flex-column">
+                                    <h3 class="pb-30 transition title">n.amoudayne@gmail.com</h3>
+                                    <svg class="icon-primary transition transition-svg" height="50px" width="50px"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M22 3H2C.9 3 0 3.9 0 5v14c0 1.1.9 2 2 2h20c1.1 0 1.99-.9 1.99-2L24 5c0-1.1-.9-2-2-2zm0 16H2V5h20v14zM21 6h-7v5h7V6zm-1 2l-2.5 1.75L15 8V7l2.5 1.75L20 7v1zM9 12c1.65 0 3-1.35 3-3s-1.35-3-3-3-3 1.35-3 3 1.35 3 3 3zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6 8.59c0-2.5-3.97-3.58-6-3.58s-6 1.08-6 3.58V18h12v-1.41zM5.48 16c.74-.5 2.22-1 3.52-1s2.77.49 3.52 1H5.48z" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 col-lg-4">
+                            <div class="contact-item -no-nav d-block mb-20 transition bck-light">
+                                <div class="pb-30 pt-30 d-flex align-items-center justify-content-center flex-column">
+                                    <h3 class="pb-30 transition title">
+                                        Adresse
+                                    </h3>
+                                    <svg class="icon-primary transition transition-svg" height="50px" width="50px"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path
+                                            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z" />
+                                        <circle cx="12" cy="9" r="2.5" />
+                                    </svg>
+                                    <p class="pt-30">13 Montée Cardinal Decourtray, Lyon 5°</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="contact-item -no-nav d-block mb-20 transition bck-light">
+                                <div class="pb-30 pt-30 d-flex align-items-center justify-content-center flex-column">
+                                    <h3 class="pb-30 transition title">
+                                        Amplitude Horaires
+                                    </h3>
+                                    <svg class="icon-primary transition transition-svg" height="50px" width="50px"
+                                        xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                        viewBox="0 0 24 24">
+                                        <g>
+                                            <rect fill="none" height="24" width="24" />
+                                            <path
+                                                d="M15.1,19.37l1,1.74c-0.96,0.44-2.01,0.73-3.1,0.84v-2.02C13.74,19.84,14.44,19.65,15.1,19.37z M4.07,13H2.05 c0.11,1.1,0.4,2.14,0.84,3.1l1.74-1C4.35,14.44,4.16,13.74,4.07,13z M15.1,4.63l1-1.74C15.14,2.45,14.1,2.16,13,2.05v2.02 C13.74,4.16,14.44,4.35,15.1,4.63z M19.93,11h2.02c-0.11-1.1-0.4-2.14-0.84-3.1l-1.74,1C19.65,9.56,19.84,10.26,19.93,11z M8.9,19.37l-1,1.74c0.96,0.44,2.01,0.73,3.1,0.84v-2.02C10.26,19.84,9.56,19.65,8.9,19.37z M11,4.07V2.05 c-1.1,0.11-2.14,0.4-3.1,0.84l1,1.74C9.56,4.35,10.26,4.16,11,4.07z M18.36,7.17l1.74-1.01c-0.63-0.87-1.4-1.64-2.27-2.27 l-1.01,1.74C17.41,6.08,17.92,6.59,18.36,7.17z M4.63,8.9l-1.74-1C2.45,8.86,2.16,9.9,2.05,11h2.02C4.16,10.26,4.35,9.56,4.63,8.9z M19.93,13c-0.09,0.74-0.28,1.44-0.56,2.1l1.74,1c0.44-0.96,0.73-2.01,0.84-3.1H19.93z M16.83,18.36l1.01,1.74 c0.87-0.63,1.64-1.4,2.27-2.27l-1.74-1.01C17.92,17.41,17.41,17.92,16.83,18.36z M7.17,5.64L6.17,3.89 C5.29,4.53,4.53,5.29,3.9,6.17l1.74,1.01C6.08,6.59,6.59,6.08,7.17,5.64z M5.64,16.83L3.9,17.83c0.63,0.87,1.4,1.64,2.27,2.27 l1.01-1.74C6.59,17.92,6.08,17.41,5.64,16.83z M13,7h-2v5.41l4.29,4.29l1.41-1.41L13,11.59V7z" />
+                                        </g>
+                                    </svg>
+                                    <p class="pt-30">9h - 17h sauf le jeudi 21h</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="section bck-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="small txt-center color-white">©Copyright par Naouël AMOUDAYNE, tous droits reservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
